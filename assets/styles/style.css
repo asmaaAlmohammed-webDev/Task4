@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --primary-color1: #3fbabf;
+    --primary-color2: #f7fdfd;
+}
+
+/* after title line */
+.title {
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: .2rem;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-color1);
+}
+
+
+/* navbar1 */
+.navbar1 {
+    background-color: var(--primary-color1);
+}
+
+/* navbar2 */
+
+.navbar2 .btn {
+    background-color: var(--primary-color1);
+}
+
+.navbar2 .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active {
+    color: var(--primary-color1);
+}
+
+/* hero */
+
+.hero .carousel-inner .carousel-item img {
+    height: calc(100vh - 130px);
+}
+
+.hero .carousel button {
+    height: 10px;
+    width: 10px;
+}
+
+.hero .carousel button:hover,
+.hero .carousel .carousel-indicators button.active {
+    background-color: var(--primary-color1);
+}
+
+.hero .content .btn {
+    background-color: var(--primary-color1);
+}
+
+.hero .content {
+    border-top: .5rem solid var(--primary-color1);
+}
+
+/*  service */
+
+.service .card {
+    width: 18rem;
+}
+
+.service .card .icon {
+    width: 35px;
+    height: 35px;
+    color: var(--primary-color1);
+}
+
+/* appointment */
+
+.appointment {
+    background-color: var(--primary-color2);
+}
+
+.appointment .btn {
+    background-color: var(--primary-color1);
+}
+
+/* .appointment .row {
+    flex-wrap: wrap;
+} */
+
+/* departments */
+.departments .nav .nav-link {
+    background: none;
+    color: black;
+}
+
+.departments .nav .nav-link:hover,
+.departments .nav .nav-link.active {
+    color: var(--primary-color1);
+}
+
+.departments .nav .nav-link.active {
+    position: relative;
+}
+
+.departments .nav .nav-link.active::after {
+    content: "";
+    display: block;
+    /* width: .2rem; */
+    height: 25px;
+    position: absolute;
+    bottom: 15%;
+    left: 138%;
+    transform: translateX(-50%);
+    background-color: var(--primary-color1);
+}
+
+/*  Frequently-questions */
+.Frequently-questions {
+    background-color: var(--primary-color2);
+}
+
+/* contact */
+.contact .icon {
+    border-style: solid;
+    border-color: var(--primary-color1);
+    width: 60px;
+    height: 60px;
+    color: var(--primary-color1);
+
+}
+
+.contact .btn {
+    background-color: var(--primary-color1);
+}
+
+.contact p {
+    color: var(--primary-color1);
+}
+
+/* footer */
+
+footer {
+    background-color: var(--primary-color2);
+}
+
+footer .icon {
+    border-style: solid;
+    width: 40px;
+    height: 40px;
+}
+
+footer .row2 p a {
+    color: var(--primary-color1);
+}

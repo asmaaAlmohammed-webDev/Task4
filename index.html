@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- My css file -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+</head>
+
+<body>
+    <header>
+        <!-- start navbar1 -->
+        <nav class="navbar navbar1 navbar-expand-lg text-light d-flex align-items-center pt-3">
+            <div class="container">
+                <div class=" d-flex  justify-content-center align-items-center gap-1 ">
+                    <i class="fa-solid fa-clock mb-3"></i>
+                    <p>Monday - Saturday BAM to 10PM</p>
+                </div>
+                <div class=" d-flex justify-content-center align-items-center gap-1  ">
+                    <i class="fa-solid fa-mobile-screen mb-3 "></i>
+                    <p>Call us now + 1 5589 5546 55</p>
+                </div>
+            </div>
+        </nav>
+        <!-- end navbar1 -->
+
+        <!-- start navbar2 -->
+        <nav class="navbar navbar2 navbar-expand-lg  fixed-sticky">
+            <div class="container ">
+                <a class="navbar-brand " href="#">
+                    <img class=" w-50 " src="./assets/img/img/logo.png" alt="logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">departments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">doctors</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="btn  text-light">Make an Appointment</button>
+                </div>
+            </div>
+        </nav>
+        <!-- end navbar2 -->
+        <!-- start hero -->
+        <section class="hero">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+
+                    <button class=" rounded-circle" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button class="rounded-circle" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item position-relative active">
+                        <img src="./assets/img/img/hero-carousel/hero-carousel-1.jpg" class="d-block w-100"
+                            alt="carousel1-doctor">
+                        <div
+                            class="content position-absolute z-2 top-50 start-50 translate-middle text-center bg-light p-3 rounded bg-opacity-75 w-75 border-4 ">
+                            <h2>Temporibus autem quilbusdam</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, illo? Repellatminus enim
+                                eos laudantium recusandae sunt
+                                ipsum,illo? Repellat ipsum,
+                                debitis facilis magnam similique animi, minus
+                            </p>
+                            <a href="#" class="btn main-btn rounded text-light px-5">Read More</a>
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-item position-relative">
+                        <img src="./assets/img/img/hero-carousel/hero-carousel-2.jpg" class="d-block w-100"
+                            alt="carousel2-clinic">
+                        <div
+                            class="content position-absolute z-2 top-50 start-50 translate-middle text-center bg-light p-3 rounded bg-opacity-75 w-75 border-4 ">
+                            <h2>Temporibus autem quilbusdam</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, illo? Repellatminus enim
+                                eos laudantium recusandae sunt
+                                ipsum,illo? Repellat ipsum,
+                                debitis facilis magnam similique animi, minus
+                            </p>
+                            <a href="#" class="btn main-btn rounded text-light px-5">Read More</a>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item position-relative">
+                        <img src="./assets/img/img/hero-carousel/hero-carousel-3.jpg" class="d-block w-100"
+                            alt="carousel3-doctor">
+                        <div
+                            class="content position-absolute z-2 top-50 start-50 translate-middle text-center bg-light p-3 rounded bg-opacity-75 w-75 border-4 ">
+                            <h2>Temporibus autem quilbusdam</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, illo? Repellatminus enim
+                                eos laudantium recusandae sunt
+                                ipsum,illo? Repellat ipsum,
+                                debitis facilis magnam similique animi, minus
+                            </p>
+                            <a href="#" class="btn main-btn rounded text-light px-5">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- end hero -->
+    </header>
+
+    <!-- start service -->
+    <section class="service text-center  p-4">
+        <h3 class="title">Service</h3>
+        <p class="mt-4">Necesshhgihr sit amet consectetur adipisicing elit viet amet consectetur adipisic</p>
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center ">
+                <div class="card border-0 col-lg-4 col-sm-12">
+                    <div class="card-body">
+                        <div
+                            class="icon rounded-circle shadow mx-auto  d-flex justify-content-center align-items-center mb-2">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                        </div>
+                        <h5 class="card-title title">Heart Heath</h5>
+                        <p class="card-text mt-4">Some quick example text to build on the card title and make.</p>
+                    </div>
+                </div>
+                <div class="card border-0 col-lg-4  col-sm-12">
+                    <div class="card-body">
+                        <div
+                            class="icon rounded-circle shadow mx-auto  d-flex justify-content-center align-items-center mb-2 ">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h5 class="card-title title">Brain Health</h5>
+                        <p class="card-text mt-4">Some quick example text to build on the card title and make.</p>
+                    </div>
+                </div>
+                <div class="card border-0 col-lg-4  col-sm-12">
+                    <div class="card-body">
+                        <div
+                            class="icon rounded-circle shadow mx-auto  d-flex justify-content-center align-items-center mb-2 ">
+                            <i class="fa-solid fa-lungs"></i>
+                        </div>
+                        <h5 class="card-title title">Lung Heath</h5>
+                        <p class="card-text mt-4">Some quick example text to build on the card title and make.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center ">
+                <div class="card border-0 col-lg-4  col-sm-12">
+                    <div class="card-body">
+                        <div
+                            class="icon rounded-circle shadow mx-auto  d-flex justify-content-center align-items-center mb-2 ">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+                        <h5 class="card-title title">Dental Heath</h5>
+                        <p class="card-text mt-4">Some quick example text to build on the card title and make.</p>
+                    </div>
+                </div>
+                <div class="card border-0 col-lg-4 col-sm-12">
+                    <div class="card-body">
+                        <div
+                            class="icon rounded-circle shadow mx-auto  d-flex justify-content-center align-items-center mb-2 ">
+                            <i class="fa-solid fa-stethoscope"></i>
+                        </div>
+                        <h5 class="card-title title">General Heath</h5>
+                        <p class="card-text mt-4">Some quick example text to build on the card title and make.</p>
+                    </div>
+                </div>
+                <div class="card border-0 col-lg-4 col-sm-12">
+                    <div class="card-body">
+                        <div
+                            class="icon rounded-circle shadow mx-auto  d-flex justify-content-center align-items-center mb-2 ">
+                            <i class="fa-solid fa-capsules"></i>
+                        </div>
+                        <h5 class="card-title title">Pharmacy</h5>
+                        <p class="card-text mt-4">Some quick example text to build on the card title and make.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- end service -->
+
+    <!-- start appointment -->
+    <section class="appointment text-center  py-4 ">
+        <h3 class="title text-uppercase">make an appoinment</h3>
+        <p class="mt-4">Necesshhgihr sit amet consectetur adipisicing elit viet amet consectetur adipisic</p>
+        <div class="container">
+            <div class="row  d-flex flex-wrap ">
+                <div class="col-lg-4 col-12 my-3">
+                    <input type="text" class="form-control col-lg-4 col-sm-12" placeholder="Your name">
+                </div>
+                <div class=" col-lg-4 col-12 my-3">
+                    <input type="email" class="form-control col-lg-4 col-sm-12" placeholder="Your Email">
+                </div>
+
+                <div class=" col-lg-4 col-12 my-3">
+                    <input type="text" class="form-control col-lg-4 col-sm-12" placeholder="Your Phone">
+                </div>
+                <div class=" col-lg-4 col-12 my-3">
+                    <input type="date" class="form-control">
+                </div>
+                <div class=" col-lg-4 col-12 my-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select Department</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class=" col-lg-4  col-12 my-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select Department</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class=" col-lg-12  col-12 my-3"></div>
+                <textarea class="form-control " placeholder="Message(Optional)"></textarea>
+            </div>
+            <button class="btn text-light col-lg-2  col-8 mx-auto my-3">Make an Appointment</button>
+        </div>
+
+    </section>
+    <!-- end appointment -->
+    <!-- start departments -->
+    <section class=" departments  text-center p-5">
+        <h3 class="title text-uppercase">Department</h3>
+        <p class="mt-4">Necesshhgihr sit amet consectetur adipisicing elit viet amet consectetur adipisic</p>
+        <div class=" d-md-flex  my-5 container ">
+            <div class="nav flex-column  nav-pills   " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active mb-5" id="v-pills-Cardiology-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-Cardiology" role="tab" aria-controls="v-pills-Cardiology"
+                    aria-selected="true">Cardiology</button>
+                <button class="nav-link mb-5" id="v-pills-Neurology-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-Neurology" role="tab" aria-controls="v-pills-Neurology"
+                    aria-selected="false">Neurology</button>
+                <button class="nav-link mb-5" id="v-pills-Hepatology-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-Hepatology" role="tab" aria-controls="v-pills-Hepatology"
+                    aria-selected="false">Hepatology</button>
+                <button class="nav-link mb-5" id="v-pills-Pediatrics-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-Pediatrics" role="tab" aria-controls="v-pills-Pediatrics"
+                    aria-selected="false">Pediatrics</button>
+                <button class="nav-link mb-5" id="v-pills-Ophthalmologists-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-Ophthalmologists" role="tab" aria-controls="v-pills-Ophthalmologists"
+                    aria-selected="false">Ophthalmologists</button>
+            </div>
+            <div class="tab-content container ms-5" id="v-pills-tabContent">
+                <div class="  tab-pane fade show active    gap-3 border-start " id="v-pills-Cardiology" role="tabpanel"
+                    aria-labelledby="v-pills-Cardiology-tab" tabindex="0">
+                    <div class="row p-3">
+                        <div class=" content  col-lg-6  col-sm-12 ">
+                            <h5 class="text-start ">Cardiology</h5>
+                            <p class="text-start ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rerum numquam
+                                hic
+                                laborum sint voluptates consequuntur, reprehenderit accusamus fugiat molestiae
+                            </p>
+                        </div>
+                        <img class=" col-lg-5 col-sm-12" src="./assets/img/img/departments-1.jpg" alt="logo" />
+                    </div>
+                </div>
+                <div class=" tab-pane fade  gap-3   border-start " id="v-pills-Neurology" role="tabpanel"
+                    aria-labelledby="v-pills-Neurology-tab" tabindex="0">
+                    <div class="row p-3">
+                        <div class=" content  col-lg-6  ">
+                            <h5 class="text-start ">Neurology</h5>
+                            <p class="text-start ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rerum numquam
+                                hic
+                                laborum sint voluptates consequuntur, reprehenderit accusamus fugiat molestiae
+
+                            </p>
+                        </div>
+                        <img class=" col-lg-5" src="./assets/img/img/departments-2.jpg" alt="logo" />
+                    </div>
+                </div>
+                <div class=" tab-pane fade  gap-3   border-start " id="v-pills-Hepatology" role="tabpanel"
+                    aria-labelledby="v-pills-Hepatology-tab" tabindex="0">
+                    <div class="row p-3">
+                        <div class=" content  col-lg-6  ">
+                            <h5 class="text-start ">Hepatology</h5>
+                            <p class="text-start ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rerum numquam
+                                hic
+                                laborum sint voluptates consequuntur, reprehenderit accusamus fugiat molestiae
+
+                            </p>
+                        </div>
+                        <img class=" col-lg-5  " src="./assets/img/img/departments-3.jpg" alt="logo" />
+                    </div>
+                </div>
+                <div class="tab-pane fade   gap-3  border-start" id="v-pills-Pediatrics" role="tabpanel"
+                    aria-labelledby="v-pills-Pediatrics-tab" tabindex="0">
+                    <div class="row p-3">
+                        <div class=" content  col-lg-6  ">
+                            <h5 class="text-start ">Pediatrics</h5>
+                            <p class="text-start ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rerum numquam
+                                hic
+                                laborum sint voluptates consequuntur, reprehenderit accusamus fugiat molestiae
+
+                            </p>
+                        </div>
+                        <img class=" col-lg-5" src="./assets/img/img/departments-4.jpg" alt="logo" />
+                    </div>
+                </div>
+                <div class="tab-pane fade  gap-3  border-start" id="v-pills-Ophthalmologists" role="tabpanel"
+                    aria-labelledby="v-pills-Ophthalmologists-tab" tabindex="0">
+                    <div class="row p-3">
+                        <div class=" content   col-lg-6  ">
+                            <h5 class="text-start ">Ophthalmologists</h5>
+                            <p class="text-start ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rerum numquam
+                                hic
+                                laborum sint voluptates consequuntur, reprehenderit accusamus fugiat molestiae
+
+                            </p>
+                        </div>
+                        <img class=" col-lg-5 " src="./assets/img/img/departments-5.jpg" alt="logo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- end departments -->
+    <!-- start Frequently-questions -->
+    <section class=" Frequently-questions text-center p-5">
+        <h3 class="title text-uppercase ">Frequently Asked Questions</h3>
+        <p class="mt-4 mb-5">Necesshhgihr sit amet consectetur adipisicing elit viet amet consectetur adipisic</p>
+        <div class="row container mx-auto">
+            <div class="accordion col-lg-12 col-sm-12 w-100" id="accordionExample">
+                <div class="accordion-item ">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Non consectetur a erat nam at lectus duis ?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                            the collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes
+                            control the overall
+                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                            this with
+                            custom CSS or overriding our default variables. It's also worth noting that just about
+                            any HTML can go
+                            within the , though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-3 col-lg-12 col-sm-12 w-100">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Feugiat seclerisque appropriate classes noting ?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                            until the collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes
+                            control the overall
+                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                            this with
+                            custom CSS or overriding our default variables. It's also worth noting that just about
+                            any HTML can go
+                            within the, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item  col-lg-12 col-sm-12 w-100">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Dolor though the transition does limit overflow ?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                            the collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes
+                            control the overall
+                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                            this with
+                            custom CSS or overriding our default variables. It's also worth noting that just about
+                            any HTML can go
+                            within the , though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Frequently-questions -->
+
+    <!--start contact  -->
+    <section class="contact text-center p-5">
+        <h3 class="title text-uppercase ">Frequently Asked Questions</h3>
+        <p class="mt-4 mb-5">Necesshhgihr sit amet consectetur adipisicing elit viet amet consectetur adipisic</p>
+
+        <div class="row  ">
+            <div class=" map mb-3">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53198853.48586646!2d93.53238863234425!3d35.52898939999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1526ada7c38f8879%3A0x5f66e4e99dbb7a47!2sfocal%20X%20agency!5e0!3m2!1sar!2snl!4v1728335909653!5m2!1sar!2snl"
+                    height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    class="w-100"></iframe>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="col-lg-6 col-md-12 col-12 ">
+                    <div class="row">
+                        <div class="col-lg-12 col-12 shadow mb-3  ">
+                            <div
+                                class="icon rounded-circle border-1 d-flex justify-content-center align-items-center  my-3  mx-auto">
+                                <i class="fa-solid fa-house-chimney"></i>
+                            </div>
+                            <h6>Our Addres</h6>
+                            <p>View on Map</p>
+                        </div>
+                        <div class="col-lg-6 col-6 shadow  ">
+                            <div
+                                class="icon rounded-circle  border-1 d-flex justify-content-center align-items-center my-3 mx-auto ">
+                                <i class="fa-solid fa-phone-flip"></i>
+                            </div>
+                            <h6>Phone Number</h6>
+                            <p>Call us Now</p>
+                        </div>
+                        <div class="col-lg-6 col-6 shadow ">
+                            <div
+                                class="icon rounded-circle  border-1 d-flex justify-content-center align-items-center my-3 mx-auto">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <h6>Email Address</h6>
+                            <p>Send Email</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 ">
+                    <form class="  px-5 shadow mx-3  d-flex flex-wrap ">
+                        <div class="col-lg-6 col-6 my-3">
+                            <input type="text" class="form-control " placeholder="Enter your first name">
+                        </div>
+                        <div class="col-lg-6 col-6 my-3">
+                            <input type="email" class="form-control " placeholder="Enter your email">
+                        </div>
+                        <div class="col-lg-12 col-12 ">
+                            <input type="text" class="form-control " placeholder="Enter the subject">
+                        </div>
+                        <div class="col-lg-12 col-12 my-3">
+                            <textarea class="form-control " placeholder="Enter your message"></textarea>
+                        </div>
+                        <button class="btn text-light col-lg-4  col-4 mx-auto my-5">Send</button>
+                    </form>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--end contact  -->
+    <!-- footer -->
+    <footer>
+        <div class="row row1 container p-5 mx-auto border-bottom border-secondary-subtle border-1 my-3">
+            <div class="col-lg-4">
+                <h5>Medicio</h5>
+                <p class="my-3">A 406 Adam Treet New York NY 55325</p>
+                <div class="d-flex gap-1">
+                    <p>Phone: </p>
+                    <a href="#" class="text-secondary link-underline link-underline-opacity-0">09654876258</a>
+                </div>
+                <div class="d-flex gap-1">
+                    <p>Email: </p>
+                    <a href="#" class="text-secondary link-underline link-underline-opacity-0">info@gmail.com</a>
+                </div>
+                <div class="d-flex gap-1 my-3">
+                    <div
+                        class="icon rounded-circle border-1 d-flex justify-content-center align-items-center text-secondary">
+                        <i class="fa-brands fa-facebook-f text-secondary"></i>
+
+                    </div>
+                    <div
+                        class="icon rounded-circle border-1 d-flex justify-content-center align-items-center text-secondary ">
+                        <i class="fa-brands fa-twitter text-secondary"></i>
+
+                    </div>
+                    <div
+                        class="icon rounded-circle border-1 d-flex justify-content-center align-items-center text-secondary">
+                        <i class="fa-brands fa-linkedin-in text-secondary"></i>
+
+                    </div>
+                    <div
+                        class="icon rounded-circle border-1 d-flex justify-content-center align-items-center text-secondary ">
+                        <i class="fa-brands fa-instagram text-secondary"></i>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-2">
+                <h5>Useful Links</h5>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block my-3">Home</a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block">About us </a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block my-3">Services</a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block">Term of service</a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block my-3">Privacy
+                    policy</a>
+
+            </div>
+            <div class="col-lg-2">
+                <h5>Our Services</h5>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block my-3">Web Design</a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block">Web Development </a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block my-3">Product
+                    Managment</a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block">Markting</a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block my-3">Graphic
+                    Design</a>
+
+            </div>
+            <div class="col-lg-2">
+                <h5>Hic solutastep</h5>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block my-3">Molestiea
+                    accusamus </a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block">Excepuytr dignissimos
+                </a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block my-3">Suscipt
+                    distinctio</a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block">Dilecta</a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block my-3">Sit quas
+                    consectetur</a>
+
+            </div>
+            <div class="col-lg-2">
+                <h5>Nobis illum</h5>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block my-3">
+                    Ipsum
+                </a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block">Laudantium doicrum
+                </a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block my-3">Trodelas
+                </a>
+                <a href="#" class="text-secondary link-underline link-underline-opacity-0 d-block">Fiexo</a>
+
+            </div>
+
+        </div>
+        <div class="row row2 text-center">
+            <p class="">© Copyright <strong>Medicio</strong> All Rights Reversed.</p>
+            <p>Desighned by <a href="#" class="link-underline link-underline-opacity-0">BootstrapMade</a></p>
+
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
